@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="42583595-d764-4d1b-8f25-e9f3906f8cfc">
+  <name>Sentry_РегламентноеЗаданиеСервер</name>
+  <synonym>
+    <key>ru</key>
+    <value>(Sentry) Регламентное задание сервер</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

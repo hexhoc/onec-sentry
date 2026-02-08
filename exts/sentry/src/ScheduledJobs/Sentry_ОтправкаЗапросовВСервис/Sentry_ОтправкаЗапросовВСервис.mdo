@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ed3e6ddc-158e-4374-b92e-35c7f00bc675">
+  <name>Sentry_ОтправкаЗапросовВСервис</name>
+  <synonym>
+    <key>ru</key>
+    <value>(Sentry) Отправка запросов в сервис</value>
+  </synonym>
+  <methodName>CommonModule.Sentry_РегламентноеЗаданиеСервер.ОтправкаЖурналаРегистрацииВSentry</methodName>
+  <description>(Sentry) Отправка запросов в сервис</description>
+  <key>Sentry_ОтправкаЗапросовВСервис</key>
+  <restartCountOnFailure>3</restartCountOnFailure>
+  <restartIntervalOnFailure>10</restartIntervalOnFailure>
+</mdclass:ScheduledJob>

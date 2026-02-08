@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bef3ab43-d6b4-4866-9e1f-fcf66f861348">
+  <producedTypes>
+    <managerType typeId="5497a305-65f6-4483-a5c1-32cea8cebc43" valueTypeId="9e3d182f-056e-46a7-816c-2f12b666ba69"/>
+    <valueManagerType typeId="46d64e54-fd86-4d36-9f5d-14eefcacf60f" valueTypeId="19952bec-2882-42f7-9c32-f61a4feae76c"/>
+    <valueKeyType typeId="c26d2c5c-cc6f-4b61-94e3-69ae0fd20902" valueTypeId="a4890bc6-0ec9-45a2-b1ec-9ce1803e4b4a"/>
+  </producedTypes>
+  <name>Sentry_ВремяПоследнегоОбмена</name>
+  <synonym>
+    <key>ru</key>
+    <value>(Sentry) Время последнего обмена</value>
+  </synonym>
+  <type>
+    <types>Date</types>
+    <dateQualifiers/>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

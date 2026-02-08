@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e35b15d5-e38e-45e7-b423-3a9c2106240f">
+  <name>Sentry_ВзаимодействиеСПользователямиВызовСервера</name>
+  <synonym>
+    <key>ru</key>
+    <value>(Sentry) Взаимодействие с пользователями вызов сервера</value>
+  </synonym>
+  <server>true</server>
+  <serverCall>true</serverCall>
+</mdclass:CommonModule>

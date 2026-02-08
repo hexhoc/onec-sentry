@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="8d68df0f-2025-4633-a335-8581dc270472">
+  <name>Sentry</name>
+  <synonym>
+    <key>ru</key>
+    <value>Sentry</value>
+  </synonym>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConfigurationExtension">
+    <defaultRunMode>Checked</defaultRunMode>
+    <usePurposes>Checked</usePurposes>
+    <defaultLanguage>Checked</defaultLanguage>
+    <interfaceCompatibilityMode>Checked</interfaceCompatibilityMode>
+  </extension>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="4dad54ed-fa2b-4507-b005-5de53a362545"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="b5e0b70f-44d6-41bb-abf7-92a0ae47c83b"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="4850ddcf-2bf5-4da5-ba5b-233af6138972"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="0818d854-65d5-49e2-8bff-eda6b6a9f25b"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="8bdd45f8-cac0-406e-af82-f98753ae804b"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="74817284-8acd-4659-a06f-d9d4e7e8f47c"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="83a62971-3231-422b-a423-9431f04fd332"/>
+  <keepMappingToExtendedConfigurationObjectsByIDs>true</keepMappingToExtendedConfigurationObjectsByIDs>
+  <namePrefix>Sentry_</namePrefix>
+  <configurationExtensionCompatibilityMode>8.3.16</configurationExtensionCompatibilityMode>
+  <configurationExtensionPurpose>AddOn</configurationExtensionPurpose>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <version>1.0.5</version>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <interfaceCompatibilityMode>TaxiEnableVersion8_2</interfaceCompatibilityMode>
+  <languages uuid="f736de7e-a62f-442b-aa48-26cbfcc5c441">
+    <name>Русский</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:LanguageExtension">
+      <languageCode>Checked</languageCode>
+    </extension>
+    <languageCode>ru</languageCode>
+  </languages>
+  <commonModules>CommonModule.Sentry_ВзаимодействиеСПользователямиВызовСервера</commonModules>
+  <commonModules>CommonModule.Sentry_ВзаимодействиеСПользователямиКлиент</commonModules>
+  <commonModules>CommonModule.Sentry_ВзаимодействиеСПользователямиСервер</commonModules>
+  <commonModules>CommonModule.Sentry_ОбменДаннымиПовтИсп</commonModules>
+  <commonModules>CommonModule.Sentry_ОбменДаннымиСервер</commonModules>
+  <commonModules>CommonModule.Sentry_РегламентноеЗаданиеСервер</commonModules>
+  <commonModules>CommonModule.ДополнительныеОтчетыИОбработки</commonModules>
+  <commonModules>CommonModule.СтандартныеПодсистемыКлиент</commonModules>
+  <scheduledJobs>ScheduledJob.Sentry_ОтправкаЗапросовВСервис</scheduledJobs>
+  <constants>Constant.Sentry_ВремяПоследнегоОбмена</constants>
+  <enums>Enum.Sentry_УровниЛогирования</enums>
+  <informationRegisters>InformationRegister.Sentry_НастройкиПодключенияКСервису</informationRegisters>
+</mdclass:Configuration>

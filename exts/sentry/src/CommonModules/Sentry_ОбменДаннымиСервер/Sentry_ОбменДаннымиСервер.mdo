@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c665e4db-e4f6-4093-9caf-81e5c3dca9c1">
+  <name>Sentry_ОбменДаннымиСервер</name>
+  <synonym>
+    <key>ru</key>
+    <value>(Sentry) Обмен данными сервер</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>
