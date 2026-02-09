@@ -21,12 +21,12 @@
   <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="83a62971-3231-422b-a423-9431f04fd332"/>
   <keepMappingToExtendedConfigurationObjectsByIDs>true</keepMappingToExtendedConfigurationObjectsByIDs>
   <namePrefix>Sentry_</namePrefix>
-  <configurationExtensionCompatibilityMode>8.3.16</configurationExtensionCompatibilityMode>
+  <configurationExtensionCompatibilityMode>8.3.24</configurationExtensionCompatibilityMode>
   <configurationExtensionPurpose>AddOn</configurationExtensionPurpose>
   <defaultRunMode>ManagedApplication</defaultRunMode>
   <usePurposes>PersonalComputer</usePurposes>
   <scriptVariant>Russian</scriptVariant>
-  <version>1.0.5</version>
+  <version>1.0.7</version>
   <defaultLanguage>Language.Русский</defaultLanguage>
   <interfaceCompatibilityMode>TaxiEnableVersion8_2</interfaceCompatibilityMode>
   <languages uuid="f736de7e-a62f-442b-aa48-26cbfcc5c441">
@@ -43,10 +43,8 @@
   <commonModules>CommonModule.Sentry_ОбменДаннымиПовтИсп</commonModules>
   <commonModules>CommonModule.Sentry_ОбменДаннымиСервер</commonModules>
   <commonModules>CommonModule.Sentry_РегламентноеЗаданиеСервер</commonModules>
-  <commonModules>CommonModule.ДополнительныеОтчетыИОбработки</commonModules>
   <commonModules>CommonModule.СтандартныеПодсистемыКлиент</commonModules>
-  <scheduledJobs>ScheduledJob.Sentry_ОтправкаЗапросовВСервис</scheduledJobs>
+  <commonModules>CommonModule.ДополнительныеОтчетыИОбработки</commonModules>
   <constants>Constant.Sentry_ВремяПоследнегоОбмена</constants>
-  <enums>Enum.Sentry_УровниЛогирования</enums>
   <informationRegisters>InformationRegister.Sentry_НастройкиПодключенияКСервису</informationRegisters>
 </mdclass:Configuration>

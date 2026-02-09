@@ -484,9 +484,46 @@
             <autoMaxHeight>true</autoMaxHeight>
             <wrap>true</wrap>
             <extendedEditMultipleValues>true</extendedEditMultipleValues>
+            <listChoiceMode>true</listChoiceMode>
             <chooseType>true</chooseType>
             <typeDomainEnabled>true</typeDomainEnabled>
             <textEdit>true</textEdit>
+            <choiceList>
+              <presentation>
+                <key>ru</key>
+                <value>Примечание</value>
+              </presentation>
+              <value xsi:type="core:StringValue">
+                <value>Примечание</value>
+              </value>
+            </choiceList>
+            <choiceList>
+              <presentation>
+                <key>ru</key>
+                <value>Информация</value>
+              </presentation>
+              <value xsi:type="core:StringValue">
+                <value>Информация</value>
+              </value>
+            </choiceList>
+            <choiceList>
+              <presentation>
+                <key>ru</key>
+                <value>Предупреждение</value>
+              </presentation>
+              <value xsi:type="core:StringValue">
+                <value>Предупреждение</value>
+              </value>
+            </choiceList>
+            <choiceList>
+              <presentation>
+                <key>ru</key>
+                <value>Ошибка</value>
+              </presentation>
+              <value xsi:type="core:StringValue">
+                <value>Ошибка</value>
+              </value>
+            </choiceList>
           </extInfo>
         </items>
         <items xsi:type="form:Decoration">

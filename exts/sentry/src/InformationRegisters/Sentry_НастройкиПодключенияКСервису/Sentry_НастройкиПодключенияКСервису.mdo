@@ -152,16 +152,17 @@
       <value>Уровень логирования</value>
     </synonym>
     <type>
-      <types>EnumRef.Sentry_УровниЛогирования</types>
+      <types>String</types>
+      <stringQualifiers>
+        <length>20</length>
+      </stringQualifiers>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillChecking>ShowError</fillChecking>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
-    <fillValue xsi:type="core:ReferenceValue">
-      <value>Enum.Sentry_УровниЛогирования.EnumValue.Ошибки</value>
-    </fillValue>
+    <fillValue xsi:type="core:StringValue"/>
   </resources>
   <resources uuid="9d8b7522-01a9-44eb-b334-8839932e8e79">
     <name>ИнтервалВыгрузки</name>
